@@ -1,0 +1,47 @@
+>>> a='123'
+>>> type(a)
+<class 'str'>
+>>> b=int(a)
+>>> type(b)
+<class 'int'>
+>>> b
+123
+>>> a=123
+>>> type(a)
+<class 'int'>
+>>> a='abcd'
+>>> b=int(a)
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    b=int(a)
+ValueError: invalid literal for int() with base 10: 'abcd'
+>>> b=float(a)
+>>> b
+56.87
+>>> type(b)
+<class 'float'>
+>>> 162.48 / 13.54
+12.0
+>>> a=162.48 / 13.54
+>>> a
+12.0
+>>> type(a)
+<class 'float'>
+>>> int(a)
+12
+>>> a
+12.0
+>>> type(a)
+<class 'float'>
+>>> b=int(a)
+>>> b
+12
+>>> type(a)
+<class 'float'>
+>>> type9b0
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    type9b0
+NameError: name 'type9b0' is not defined
+>>> type(b)
+<class 'int'>
